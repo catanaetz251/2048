@@ -1,0 +1,13 @@
+.grid-container {
+    width:800px;
+    height: 800px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+.grid-cell {
+    width: 198px;
+    height: 198px;
+    border: 1px solid blue;
+    float: left;
+}

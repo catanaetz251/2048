@@ -29,7 +29,7 @@ body {
     width: 7.5rem;
     height: 7.5rem;
     border: 2px solid #444;    
-    background-color: #333;  
+    background-color: #222;            
     color: #666;  
 }
 .game-explanation, .heading {
@@ -56,10 +56,6 @@ h1, h2 {
 h1 {
     font-size: 70px;  
     margin-left: -20px;  
-}
-p i {
-    font-weight: 600;
-    font-size: 18px;   
 }
 div.button {
     text-align: center;

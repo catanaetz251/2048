@@ -3,8 +3,8 @@ html {
     margin: 0;
 	padding: 0;	
 }
-body {
-    background: url(http://www.bradysammons.com/codepen/darkui/noise.png) repeat;
+body {    
+    background: url(./img/noise.png) repeat;
     padding: 20px;
     color: #000;   
 }
@@ -49,7 +49,7 @@ h1, h2 {
   margin: 0 0 10px 0;  
   text-align: center;  
   top: -20px;
-  background: url("http://www.bradysammons.com/codepen/darkui/noise.png") repeat;
+  background: url(./img/noise.png) repeat;
   padding: 5px 20px;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3), 0 0px 10px rgba(0, 255, 255, 0.7);
 }
@@ -108,7 +108,7 @@ a.glowBtn:hover, a.hover {
   color: #AEAEAE;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
 }
-a.glowBtn:hover:after, a.hover:after, input[type='radio'] + label:hover:after {
+a.glowBtn:hover:after, a.hover:after {
   background-size: 100%; 
   background-image: linear-gradient(#545454, #373738);
 }
@@ -151,7 +151,6 @@ marquee {
      margin: 0 15px;
      font-family: 'Trebuchet MS', Helvetica, sans-serif;
   }
-
 #howTo {    
     margin: 20px 0 -10px 0;
 }
